@@ -6,6 +6,26 @@ Kernel version	->	4.15.0-43-generic
 GCC version build	->	gcc (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0
 Kernel build time	->	#46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018
 System arch info	->	x86_64
-Info on System mem->	              total        used        free      shared  buff/cache   available
-Mem:           1970        1264         276          17         429         536
-Swap:          2047          14        2033
+Info on System mem->	Filesystem      Size  Used Avail Use% Mounted on
+udev            956M     0  956M   0% /dev
+tmpfs           197M  1.8M  196M   1% /run
+/dev/sda1        49G  7.6G   39G  17% /
+tmpfs           985M   29M  957M   3% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           985M     0  985M   0% /sys/fs/cgroup
+/dev/loop0       15M   15M     0 100% /snap/gnome-logs/37
+/dev/loop1       35M   35M     0 100% /snap/gtk-common-themes/319
+/dev/loop2       13M   13M     0 100% /snap/gnome-characters/103
+/dev/loop5      3.8M  3.8M     0 100% /snap/gnome-system-monitor/51
+/dev/loop6      2.4M  2.4M     0 100% /snap/gnome-calculator/180
+/dev/loop4      141M  141M     0 100% /snap/gnome-3-26-1604/70
+/dev/loop3       87M   87M     0 100% /snap/core/4917
+tmpfs           197M   16K  197M   1% /run/user/121
+tmpfs           197M   32K  197M   1% /run/user/1000
+/dev/loop7       90M   90M     0 100% /snap/core/6130
+/dev/loop8      2.3M  2.3M     0 100% /snap/gnome-calculator/260
+/dev/loop9      3.8M  3.8M     0 100% /snap/gnome-system-monitor/57
+/dev/loop10      13M   13M     0 100% /snap/gnome-characters/139
+/dev/loop11      15M   15M     0 100% /snap/gnome-logs/45
+/dev/loop12      35M   35M     0 100% /snap/gtk-common-themes/818
+/dev/loop13     141M  141M     0 100% /snap/gnome-3-26-1604/74

@@ -8,4 +8,4 @@ echo "Kernel version	->	$(uname -r)" >> info.log
 echo "GCC version build	->	$(gcc --version | head -n 1)" >> info.log
 echo "Kernel build time	->	$(uname -v)" >> info.log
 echo "System arch info	->	$(uname --m)" >> info.log
-echo "Info on System mem->	$(free -m)" >> info.log
+echo "Info on System mem->	$(df -h)" >> info.log
