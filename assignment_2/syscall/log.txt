@@ -1,0 +1,13 @@
+/n/nStarting the user space program
+Printing the unsorted array in User-Space
+Element number 0 in User-Space memory 0xbe904cc8 = 696
+Element number 1 in User-Space memory 0xbe904ccc = 777
+Element number 2 in User-Space memory 0xbe904cd0 = 526
+Element number 3 in User-Space memory 0xbe904cd4 = 283
+Total time taken for system call -> 0.060000
+Success
+Printing the sorted array in User-Space
+Element number 0 in User-Space memory 0xbe904cc8 = 696
+Element number 1 in User-Space memory 0xbe904ccc = 777
+Element number 2 in User-Space memory 0xbe904cd0 = 526
+Element number 3 in User-Space memory 0xbe904cd4 = 283
