@@ -13,7 +13,7 @@ MODULE_VERSION("1.0");
 
 #define ARRAY_LENGTH (50)
 
-static char input_list[ARRAY_LENGTH][10] = { "Frog",
+static char *input_list[10] = { "Frog",
     "Camel",
     "Chicken",
     "Alpaca",
@@ -63,7 +63,7 @@ static char input_list[ARRAY_LENGTH][10] = { "Frog",
     "Dog",
     "Frog"};
 
-    //static int len = 50;
+    static int len = 50;
     static int duplicate_input_count[ARRAY_LENGTH];
 
     static char sorted_input_list[ARRAY_LENGTH][10];
@@ -90,8 +90,8 @@ static char input_list[ARRAY_LENGTH][10] = { "Frog",
     module_param(user_count, int, S_IRUSR | S_IRGRP | S_IROTH | S_IWUSR);
     MODULE_PARM_DESC(user_count, "An integer to hold the user specified count value");
 
-    //module_param_array(input_list, charp, &len, 0644);
-    //MODULE_PARM_DESC(input_list, "An character array of input animal names");
+    module_param_array(input_list, charp, &len, 0644);
+    MODULE_PARM_DESC(input_list, "An character array of input animal names");
 
 int compare_function(const void *a, const void *b) {
     char *x = (char *) a;
