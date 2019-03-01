@@ -45,6 +45,7 @@ int main (int argc, char **argv)
    // int pipecd[2];
     pid_t cpid;
     char buf;
+    char command[32];
 
     char p_msg[BUFF_SIZE];
     char c_msg[BUFF_SIZE];
@@ -69,7 +70,7 @@ int main (int argc, char **argv)
     
         signal(SIGINT, c_proc_handler);
         char print_msg[128];
-        snprintf(print_msg, BUFF_SIZE, "IPC = PIPE <--> Process ID = %d", getpid());
+        snprintf(print_msg, BUFF_SIZE, "IPC = PIPE [CHILD] <--> Process ID = %d write_FD = %d Read_RD = %d", getpid(), pipecd[0], pipecd[1]);
         log_msg("log.txt", print_msg);
         
         while(1) {
@@ -78,6 +79,16 @@ int main (int argc, char **argv)
                 printf("Child: Recieved msg from parent = %s\n  length = %ld", c_msg, strlen(c_msg));
                 snprintf(print_msg, BUFF_SIZE, "Child: Recieved msg from parent = %s    length = %ld", c_msg, strlen(c_msg));
                 log_msg("log.txt", print_msg);
+
+                sscanf(c_msg, "%s", command);
+                if (strcmp(command, "LON") == 0) {
+                    printf("LED turned ON\n");
+                    log_msg("log.txt", "Child: Led turned ON");
+                }
+                if (strcmp(command, "LOFF") == 0) {
+                    printf("LED turned OFF\n");
+                    log_msg("log.txt", "Child: Led turned OFF");
+                }
 
                 memset(c_msg, 0, sizeof(c_msg));
 
@@ -93,7 +104,7 @@ int main (int argc, char **argv)
 
         signal(SIGINT, p_proc_handler);
         char print_msg[128];
-        snprintf(print_msg, BUFF_SIZE, "IPC = PIPE <--> Process ID = %d", getpid());
+        snprintf(print_msg, BUFF_SIZE, "IPC = PIPE [PARENT] <--> Process ID = %d write_FD = %d Read_FD = %d", getpid(), pipepd[0], pipepd[1]);
         log_msg("log.txt", print_msg);
        
         while(1) {
@@ -109,6 +120,16 @@ int main (int argc, char **argv)
             printf("Parent: Recieved msg from parent = %s   length = %ld\n", p_msg, strlen(p_msg));
             snprintf(print_msg, BUFF_SIZE, "Parent: Recieved msg from Child = %s    length = %ld", p_msg, strlen(p_msg));
             log_msg("log.txt", print_msg);
+
+            sscanf(p_msg, "%s", command);
+            if (strcmp(command, "LON") == 0) {
+                printf("LED turned ON\n");
+                log_msg("log.txt", "Parent: Led turned ON");
+            }
+            if (strcmp(command, "LOFF") == 0) {
+                printf("LED turned OFF\n");
+                log_msg("log.txt", "Parent: Led turned OFF");
+            }
 
             memset(p_msg, 0, sizeof(p_msg));
         }

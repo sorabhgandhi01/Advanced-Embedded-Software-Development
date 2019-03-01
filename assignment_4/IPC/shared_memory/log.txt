@@ -1,0 +1,13 @@
+Timestamp: 1551482048 *** IPC = SHARED MQ [CLIENT] <---> Process ID = 10659   FD = 3
+
+Timestamp: 1551482052 *** IPC = SHARED MQ [SERVER] <---> Process ID = 10661   FD = 3
+
+Timestamp: 1551482056 *** Server: Recieved msg from Client = hello    length = 5
+Timestamp: 1551482064 *** Client: Recieved msg from server = LON    length = 3
+Timestamp: 1551482064 *** Client: Led turned ON
+Timestamp: 1551482077 *** Server: Recieved msg from Client = LOFF    length = 4
+Timestamp: 1551482077 *** Client: Led turned OFF
+Timestamp: 1551482086 *** Client: Recieved msg from server = welcome    length = 7
+Timestamp: 1551482089 *** Server: Recieved msg from Client = hello    length = 5
+Timestamp: 1551482093 *** SIG Handler: Killing the Client in handler
+Timestamp: 1551482095 *** SIG Handler: Killing the Server in handler

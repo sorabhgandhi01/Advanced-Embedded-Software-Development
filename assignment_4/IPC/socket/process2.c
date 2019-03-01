@@ -56,6 +56,7 @@ int main(int argc, char **argv)
     struct sockaddr_in send_addr, from_addr;
     char cmd_send[128];
     char print_msg[128];
+    char command[32];
     ssize_t numRead = 0;
 
     int new_conn = 0;
@@ -107,6 +108,16 @@ int main(int argc, char **argv)
         printf("Server: %s\n", cmd_send);
         snprintf(print_msg, BUFF_SIZE, "Server: Recieved msg from Client = %s    length = %ld", cmd_send, strlen(cmd_send));
         log_msg("log.txt", print_msg);
+
+        sscanf(cmd_send, "%s", command);
+        if (strcmp(command, "LON") == 0) {
+            printf("LED turned ON\n");
+            log_msg("log.txt", "Server: Led turned ON");
+        }
+        if (strcmp(command, "LOFF") == 0) {
+            printf("LED turned OFF\n");
+            log_msg("log.txt", "Server: Led turned OFF");
+        }
 
         memset(cmd_send, 0, sizeof(cmd_send));
 
