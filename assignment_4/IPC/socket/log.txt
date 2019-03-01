@@ -1,0 +1,9 @@
+Timestamp: 1551412521 *** IPC = SOCKET <--> Process ID = 4475 <---> FD = 3
+Timestamp: 1551412540 *** IPC = SOCKET <--> Process ID = 4477 <---> FD = 3
+Timestamp: 1551412543 *** Server: Recieved msg from Client = hello    length = 5
+Timestamp: 1551412549 *** Client: Recieved msg from server = cu boulder    length = 10
+Timestamp: 1551412560 *** Server: Recieved msg from Client = good bye    length = 8
+Timestamp: 1551412565 *** Client: Recieved msg from server = welcome    length = 7
+Timestamp: 1551412568 *** Server: Recieved msg from Client = bye    length = 3
+Timestamp: 1551412569 *** Client: Killing the client process
+Timestamp: 1551412571 *** Server: Killing the server process

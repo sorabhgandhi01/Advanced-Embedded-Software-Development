@@ -1,0 +1,28 @@
+Timestamp: 1551420208 *** Master_Thread: Thread des = 140371258992384, PID = 140371258992384, Thread ID = 5408, Process ID = 5407
+Timestamp: 1551420208 *** Child_Thread1: Thread des = 140371250599680, PID = 140371250599680, Thread ID = 5409, Process ID = 5407
+Timestamp: 1551420208 *** Master_Thread: Master thread exitingTimestamp: 1551420208 *** Child_Thread2: Thread des = 140371242206976, PID = 140371242206976, Thread ID = 5410, Process ID = 5407
+TImestamp: 1551420208 *** Total CPU Utilization time = 0.076923
+TImestamp: 1551420208 *** Total CPU Utilization time = 0.225000
+TImestamp: 1551420208 *** Total CPU Utilization time = 0.230769
+TImestamp: 1551420208 *** Total CPU Utilization time = 0.153846
+TImestamp: 1551420208 *** Total CPU Utilization time = 0.256410
+TImestamp: 1551420208 *** Total CPU Utilization time = 0.230769
+TImestamp: 1551420208 *** Total CPU Utilization time = 0.153846
+TImestamp: 1551420209 *** Total CPU Utilization time = 0.282051
+TImestamp: 1551420209 *** Total CPU Utilization time = 0.236842
+TImestamp: 1551420209 *** Total CPU Utilization time = 0.170732
+TImestamp: 1551420209 *** Total CPU Utilization time = 0.275000
+TImestamp: 1551420209 *** Total CPU Utilization time = 0.256410
+TImestamp: 1551420209 *** Total CPU Utilization time = 0.200000
+TImestamp: 1551420209 *** Total CPU Utilization time = 0.189189
+TImestamp: 1551420209 *** Total CPU Utilization time = 0.230769
+TImestamp: 1551420209 *** Total CPU Utilization time = 0.170732
+TImestamp: 1551420209 *** Total CPU Utilization time = 0.250000
+TImestamp: 1551420210 *** Total CPU Utilization time = 0.282051
+TImestamp: 1551420210 *** Total CPU Utilization time = 0.100000
+TImestamp: 1551420210 *** Total CPU Utilization time = 0.184211
+TImestamp: 1551420210 *** Total CPU Utilization time = 0.256410
+TImestamp: 1551420210 *** Total CPU Utilization time = 0.153846
+TImestamp: 1551420210 *** Total CPU Utilization time = 0.263158
+TImestamp: 1551420210 *** Total CPU Utilization time = 0.275000
+TImestamp: 1551420210 *** Total CPU Utilization time = 0.153846
