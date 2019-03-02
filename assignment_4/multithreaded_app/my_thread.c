@@ -2,14 +2,11 @@
 #include <sys/types.h>
 #include <sys/syscall.h>
 
-/*void init_posix_timer(int usecs)
-{
-    struct sigevent sig;
-
-
-}*/
+long double utilization;
+timer_t timer_id;
 
 char file_name[20];
+void t_delay(int interval_ns);
 
 void log_msg(char *filename, char *msg)
 {
@@ -45,6 +42,33 @@ void child2_handler(int num)
 
     pthread_cancel(thread[2]);
     exit(0);
+}
+
+void my_timer_handler (union sigval val)
+{
+	char print_msg[128];
+	memset(print_msg, 0, sizeof(print_msg));
+
+	sprintf(print_msg, "Total CPU Utilization time = %Lf\n", utilization);
+	printf("%s\n", print_msg);
+    log_msg(file_name, print_msg);
+	
+	t_delay(100000000);
+}
+
+void t_delay(int interval_ns)
+{
+   struct itimerspec in;
+
+	in.it_value.tv_sec = 0;
+    in.it_value.tv_nsec = interval_ns; 
+    in.it_interval.tv_sec = 0;
+    in.it_interval.tv_nsec = interval_ns;
+    
+    if ((timer_settime(timer_id, 0, &in, NULL)) != 0) {
+    	perror("Timer setup failed");
+    	exit(EXIT_FAILURE);
+    }
 }
 
 void count_character (char *str, int length)
@@ -88,13 +112,13 @@ long double get_CPU_UTIL_time()
     fp = fopen("/proc/stat","r");
     fscanf(fp,"%*s %Lf %Lf %Lf %Lf",&a[0],&a[1],&a[2],&a[3]);
     fclose(fp);
-    usleep(100000);
+    /*usleep(100000);
 
     fp = fopen("/proc/stat","r");
     fscanf(fp,"%*s %Lf %Lf %Lf %Lf",&b[0],&b[1],&b[2],&b[3]);
-    fclose(fp);
+    fclose(fp);*/
 
-    loadavg = ((b[0]+b[1]+b[2]) - (a[0]+a[1]+a[2])) / ((b[0]+b[1]+b[2]+b[3]) - (a[0]+a[1]+a[2]+a[3]));
+    loadavg = (((a[0]+a[1]+a[2])) / ((a[0]+a[1]+a[2]+a[3])));
 
     return loadavg;
 }
@@ -170,21 +194,23 @@ void *child_thread2(void *arg)
     fwrite(print_msg, sizeof(char), strlen(print_msg), fptr);
     fclose(fptr);
 
+    t_delay(100000000);
+
     while(1) {
 
-    fptr = fopen(data->logfile, "a+");
+    /*fptr = fopen(data->logfile, "a+");
     if (fptr == NULL) {
         perror("File open error2:");
-    }
+    }*/
     
-        long double utilization = get_CPU_UTIL_time();
+        utilization = get_CPU_UTIL_time();
 
-        printf("Total CPU Utilization time = %Lf\n", utilization);
+       /* printf("Total CPU Utilization time = %Lf\n", utilization);
         snprintf(write_buffer, 512, "TImestamp: %lu *** Total CPU Utilization time = %Lf\n", (unsigned long)time(NULL), utilization);
 
         fwrite(write_buffer, sizeof(char), strlen(write_buffer), fptr);
 
-    fclose(fptr);
+    fclose(fptr);*/
     }
 }
 
@@ -237,6 +263,19 @@ int main(int argc, char **argv)
 
     pthread_attr_t attr;
     int rc = 0;
+
+    struct 	sigevent sev;
+	sev.sigev_notify = SIGEV_THREAD; 
+	sev.sigev_notify_function = &my_timer_handler;
+	sev.sigev_notify_attributes = NULL;
+	sev.sigev_value.sival_ptr = &timer_id;
+
+
+	if(timer_create(CLOCK_REALTIME, &sev, &timer_id) != 0)
+	{
+		perror("Timer:");
+        exit(EXIT_FAILURE);
+	}
 
     if((rc = pthread_create(&thread[0], NULL, master_thread, (void *)&data)) != 0)  		
     {

@@ -1,0 +1,460 @@
+Timestamp: 1551509467 *** Child_Thread2: Thread des = -1230142256, PID = -1230142256, Thread ID = 29653, Process ID = 29649
+Timestamp: 1551509467 *** Child_Thread1: Thread des = -1228045104, PID = -1228045104, Thread ID = 29652, Process ID = 29649
+Timestamp: 1551509467 *** Master_Thread: Thread des = -1225947952, PID = -1225947952, Thread ID = 29651, Process ID = 29649
+Timestamp: 1551509467 *** Master_Thread: Master thread exitingTimestamp: 1551509467 *** Count for character 'J' = 26
+
+Timestamp: 1551509467 *** Count for character 'Q' = 4
+
+Timestamp: 1551509467 *** Count for character 'X' = 84
+
+Timestamp: 1551509467 *** Count for character 'Z' = 12
+
+Timestamp: 1551509467 *** Total CPU Utilization time = 0.050690
+
+Timestamp: 1551509467 *** Total CPU Utilization time = 0.050699
+
+Timestamp: 1551509467 *** Total CPU Utilization time = 0.050708
+
+Timestamp: 1551509467 *** Total CPU Utilization time = 0.050717
+
+Timestamp: 1551509467 *** Total CPU Utilization time = 0.050726
+
+Timestamp: 1551509467 *** Total CPU Utilization time = 0.050735
+
+Timestamp: 1551509467 *** Total CPU Utilization time = 0.050744
+
+Timestamp: 1551509468 *** Total CPU Utilization time = 0.050753
+
+Timestamp: 1551509468 *** Total CPU Utilization time = 0.050763
+
+Timestamp: 1551509468 *** Total CPU Utilization time = 0.050772
+
+Timestamp: 1551509468 *** Total CPU Utilization time = 0.050781
+
+Timestamp: 1551509468 *** Total CPU Utilization time = 0.050790
+
+Timestamp: 1551509468 *** Total CPU Utilization time = 0.050799
+
+Timestamp: 1551509468 *** Total CPU Utilization time = 0.050808
+
+Timestamp: 1551509468 *** Total CPU Utilization time = 0.050817
+
+Timestamp: 1551509468 *** Total CPU Utilization time = 0.050826
+
+Timestamp: 1551509469 *** Total CPU Utilization time = 0.050835
+
+Timestamp: 1551509469 *** Total CPU Utilization time = 0.050844
+
+Timestamp: 1551509469 *** Total CPU Utilization time = 0.050854
+
+Timestamp: 1551509469 *** Total CPU Utilization time = 0.050863
+
+Timestamp: 1551509469 *** Total CPU Utilization time = 0.050872
+
+Timestamp: 1551509469 *** Total CPU Utilization time = 0.050881
+
+Timestamp: 1551509469 *** Total CPU Utilization time = 0.050890
+
+Timestamp: 1551509469 *** Total CPU Utilization time = 0.050900
+
+Timestamp: 1551509469 *** Total CPU Utilization time = 0.050908
+
+Timestamp: 1551509470 *** Total CPU Utilization time = 0.050917
+
+Timestamp: 1551509470 *** Total CPU Utilization time = 0.050926
+
+Timestamp: 1551509470 *** Total CPU Utilization time = 0.050936
+
+Timestamp: 1551509470 *** Total CPU Utilization time = 0.050945
+
+Timestamp: 1551509470 *** Total CPU Utilization time = 0.050954
+
+Timestamp: 1551509470 *** Total CPU Utilization time = 0.050964
+
+Timestamp: 1551509470 *** Total CPU Utilization time = 0.050973
+
+Timestamp: 1551509470 *** Total CPU Utilization time = 0.050982
+
+Timestamp: 1551509470 *** Total CPU Utilization time = 0.050991
+
+Timestamp: 1551509470 *** Total CPU Utilization time = 0.051000
+
+Timestamp: 1551509471 *** Total CPU Utilization time = 0.051009
+
+Timestamp: 1551509471 *** Total CPU Utilization time = 0.051018
+
+Timestamp: 1551509471 *** Total CPU Utilization time = 0.051027
+
+Timestamp: 1551509471 *** Total CPU Utilization time = 0.051036
+
+Timestamp: 1551509471 *** Total CPU Utilization time = 0.051045
+
+Timestamp: 1551509471 *** Total CPU Utilization time = 0.051055
+
+Timestamp: 1551509471 *** Total CPU Utilization time = 0.051064
+
+Timestamp: 1551509471 *** Total CPU Utilization time = 0.051073
+
+Timestamp: 1551509471 *** Total CPU Utilization time = 0.051082
+
+Timestamp: 1551509472 *** Total CPU Utilization time = 0.051091
+
+Timestamp: 1551509472 *** Total CPU Utilization time = 0.051100
+
+Timestamp: 1551509472 *** Total CPU Utilization time = 0.051109
+
+Timestamp: 1551509472 *** Total CPU Utilization time = 0.051118
+
+Timestamp: 1551509472 *** Total CPU Utilization time = 0.051127
+
+Timestamp: 1551509472 *** Total CPU Utilization time = 0.051136
+
+Timestamp: 1551509472 *** Total CPU Utilization time = 0.051145
+
+Timestamp: 1551509472 *** Total CPU Utilization time = 0.051155
+
+Timestamp: 1551509472 *** Total CPU Utilization time = 0.051164
+
+Timestamp: 1551509473 *** Total CPU Utilization time = 0.051173
+
+Timestamp: 1551509473 *** Total CPU Utilization time = 0.051183
+
+Timestamp: 1551509473 *** Total CPU Utilization time = 0.051193
+
+Timestamp: 1551509473 *** Total CPU Utilization time = 0.051202
+
+Timestamp: 1551509473 *** Total CPU Utilization time = 0.051211
+
+Timestamp: 1551509473 *** Total CPU Utilization time = 0.051220
+
+Timestamp: 1551509473 *** Total CPU Utilization time = 0.051229
+
+Timestamp: 1551509473 *** Total CPU Utilization time = 0.051238
+
+Timestamp: 1551509473 *** Total CPU Utilization time = 0.051247
+
+Timestamp: 1551509474 *** Total CPU Utilization time = 0.051256
+
+Timestamp: 1551509474 *** Total CPU Utilization time = 0.051265
+
+Timestamp: 1551509474 *** Total CPU Utilization time = 0.051274
+
+Timestamp: 1551509474 *** Total CPU Utilization time = 0.051284
+
+Timestamp: 1551509474 *** Total CPU Utilization time = 0.051293
+
+Timestamp: 1551509474 *** Total CPU Utilization time = 0.051302
+
+Timestamp: 1551509474 *** Total CPU Utilization time = 0.051311
+
+Timestamp: 1551509474 *** Total CPU Utilization time = 0.051320
+
+Timestamp: 1551509474 *** Total CPU Utilization time = 0.051329
+
+Timestamp: 1551509475 *** Total CPU Utilization time = 0.051338
+
+Timestamp: 1551509475 *** Total CPU Utilization time = 0.051347
+
+Timestamp: 1551509475 *** Total CPU Utilization time = 0.051356
+
+Timestamp: 1551509475 *** Total CPU Utilization time = 0.051365
+
+Timestamp: 1551509475 *** Total CPU Utilization time = 0.051374
+
+Timestamp: 1551509475 *** Total CPU Utilization time = 0.051383
+
+Timestamp: 1551509475 *** Total CPU Utilization time = 0.051393
+
+Timestamp: 1551509475 *** Total CPU Utilization time = 0.051402
+
+Timestamp: 1551509475 *** Total CPU Utilization time = 0.051410
+
+Timestamp: 1551509476 *** Total CPU Utilization time = 0.051419
+
+Timestamp: 1551509476 *** Total CPU Utilization time = 0.051429
+
+Timestamp: 1551509476 *** Total CPU Utilization time = 0.051438
+
+Timestamp: 1551509476 *** Total CPU Utilization time = 0.051446
+
+Timestamp: 1551509476 *** Total CPU Utilization time = 0.051455
+
+Timestamp: 1551509476 *** Total CPU Utilization time = 0.051464
+
+Timestamp: 1551509476 *** Total CPU Utilization time = 0.051474
+
+Timestamp: 1551509476 *** Total CPU Utilization time = 0.051483
+
+Timestamp: 1551509476 *** Total CPU Utilization time = 0.051492
+
+Timestamp: 1551509477 *** Total CPU Utilization time = 0.051501
+
+Timestamp: 1551509477 *** Total CPU Utilization time = 0.051510
+
+Timestamp: 1551509477 *** Total CPU Utilization time = 0.051519
+
+Timestamp: 1551509477 *** Total CPU Utilization time = 0.051528
+
+Timestamp: 1551509477 *** Total CPU Utilization time = 0.051537
+
+Timestamp: 1551509477 *** Total CPU Utilization time = 0.051546
+
+Timestamp: 1551509477 *** Total CPU Utilization time = 0.051555
+
+Timestamp: 1551509477 *** Total CPU Utilization time = 0.051564
+
+Timestamp: 1551509477 *** Total CPU Utilization time = 0.051573
+
+Timestamp: 1551509478 *** Total CPU Utilization time = 0.051582
+
+Timestamp: 1551509478 *** Total CPU Utilization time = 0.051591
+
+Timestamp: 1551509478 *** Total CPU Utilization time = 0.051600
+
+Timestamp: 1551509478 *** Total CPU Utilization time = 0.051609
+
+Timestamp: 1551509478 *** Total CPU Utilization time = 0.051618
+
+Timestamp: 1551509478 *** Total CPU Utilization time = 0.051627
+
+Timestamp: 1551509478 *** Total CPU Utilization time = 0.051636
+
+Timestamp: 1551509478 *** Total CPU Utilization time = 0.051645
+
+Timestamp: 1551509478 *** Total CPU Utilization time = 0.051654
+
+Timestamp: 1551509479 *** Total CPU Utilization time = 0.051663
+
+Timestamp: 1551509479 *** Total CPU Utilization time = 0.051672
+
+Timestamp: 1551509479 *** Total CPU Utilization time = 0.051681
+
+Timestamp: 1551509479 *** Total CPU Utilization time = 0.051690
+
+Timestamp: 1551509479 *** Total CPU Utilization time = 0.051699
+
+Timestamp: 1551509479 *** Total CPU Utilization time = 0.051708
+
+Timestamp: 1551509479 *** Total CPU Utilization time = 0.051717
+
+Timestamp: 1551509479 *** Total CPU Utilization time = 0.051726
+
+Timestamp: 1551509479 *** Total CPU Utilization time = 0.051735
+
+Timestamp: 1551509480 *** Total CPU Utilization time = 0.051744
+
+Timestamp: 1551509480 *** Total CPU Utilization time = 0.051754
+
+Timestamp: 1551509480 *** Total CPU Utilization time = 0.051763
+
+Timestamp: 1551509480 *** Total CPU Utilization time = 0.051772
+
+Timestamp: 1551509480 *** Total CPU Utilization time = 0.051781
+
+Timestamp: 1551509480 *** Total CPU Utilization time = 0.051790
+
+Timestamp: 1551509480 *** Total CPU Utilization time = 0.051799
+
+Timestamp: 1551509480 *** Total CPU Utilization time = 0.051808
+
+Timestamp: 1551509480 *** Total CPU Utilization time = 0.051817
+
+Timestamp: 1551509481 *** Total CPU Utilization time = 0.051826
+
+Timestamp: 1551509481 *** Total CPU Utilization time = 0.051835
+
+Timestamp: 1551509481 *** Total CPU Utilization time = 0.051844
+
+Timestamp: 1551509481 *** Total CPU Utilization time = 0.051853
+
+Timestamp: 1551509481 *** Total CPU Utilization time = 0.051863
+
+Timestamp: 1551509481 *** Total CPU Utilization time = 0.051872
+
+Timestamp: 1551509481 *** Total CPU Utilization time = 0.051881
+
+Timestamp: 1551509481 *** Total CPU Utilization time = 0.051890
+
+Timestamp: 1551509481 *** Total CPU Utilization time = 0.051899
+
+Timestamp: 1551509482 *** Total CPU Utilization time = 0.051908
+
+Timestamp: 1551509482 *** Total CPU Utilization time = 0.051918
+
+Timestamp: 1551509482 *** Total CPU Utilization time = 0.051927
+
+Timestamp: 1551509482 *** Total CPU Utilization time = 0.051936
+
+Timestamp: 1551509482 *** Total CPU Utilization time = 0.051945
+
+Timestamp: 1551509482 *** Total CPU Utilization time = 0.051954
+
+Timestamp: 1551509482 *** Total CPU Utilization time = 0.051963
+
+Timestamp: 1551509482 *** Total CPU Utilization time = 0.051972
+
+Timestamp: 1551509482 *** Total CPU Utilization time = 0.051981
+
+Timestamp: 1551509483 *** Total CPU Utilization time = 0.051990
+
+Timestamp: 1551509483 *** Total CPU Utilization time = 0.052000
+
+Timestamp: 1551509483 *** Total CPU Utilization time = 0.052009
+
+Timestamp: 1551509483 *** Total CPU Utilization time = 0.052018
+
+Timestamp: 1551509483 *** Total CPU Utilization time = 0.052027
+
+Timestamp: 1551509483 *** Total CPU Utilization time = 0.052036
+
+Timestamp: 1551509483 *** Total CPU Utilization time = 0.052045
+
+Timestamp: 1551509483 *** Total CPU Utilization time = 0.052054
+
+Timestamp: 1551509483 *** Total CPU Utilization time = 0.052063
+
+Timestamp: 1551509483 *** Total CPU Utilization time = 0.052072
+
+Timestamp: 1551509484 *** Total CPU Utilization time = 0.052081
+
+Timestamp: 1551509484 *** Total CPU Utilization time = 0.052090
+
+Timestamp: 1551509484 *** Total CPU Utilization time = 0.052099
+
+Timestamp: 1551509484 *** Total CPU Utilization time = 0.052108
+
+Timestamp: 1551509484 *** Total CPU Utilization time = 0.052118
+
+Timestamp: 1551509484 *** Total CPU Utilization time = 0.052126
+
+Timestamp: 1551509484 *** Total CPU Utilization time = 0.052135
+
+Timestamp: 1551509484 *** Total CPU Utilization time = 0.052144
+
+Timestamp: 1551509484 *** Total CPU Utilization time = 0.052152
+
+Timestamp: 1551509485 *** Total CPU Utilization time = 0.052162
+
+Timestamp: 1551509485 *** Total CPU Utilization time = 0.052172
+
+Timestamp: 1551509485 *** Total CPU Utilization time = 0.052181
+
+Timestamp: 1551509485 *** Total CPU Utilization time = 0.052190
+
+Timestamp: 1551509485 *** Total CPU Utilization time = 0.052199
+
+Timestamp: 1551509485 *** Total CPU Utilization time = 0.052208
+
+Timestamp: 1551509485 *** Total CPU Utilization time = 0.052217
+
+Timestamp: 1551509485 *** Total CPU Utilization time = 0.052226
+
+Timestamp: 1551509485 *** Total CPU Utilization time = 0.052235
+
+Timestamp: 1551509486 *** Total CPU Utilization time = 0.052245
+
+Timestamp: 1551509486 *** Total CPU Utilization time = 0.052254
+
+Timestamp: 1551509486 *** Total CPU Utilization time = 0.052263
+
+Timestamp: 1551509486 *** Total CPU Utilization time = 0.052272
+
+Timestamp: 1551509486 *** Total CPU Utilization time = 0.052281
+
+Timestamp: 1551509486 *** Total CPU Utilization time = 0.052289
+
+Timestamp: 1551509486 *** Total CPU Utilization time = 0.052298
+
+Timestamp: 1551509486 *** Total CPU Utilization time = 0.052307
+
+Timestamp: 1551509486 *** Total CPU Utilization time = 0.052316
+
+Timestamp: 1551509487 *** Total CPU Utilization time = 0.052325
+
+Timestamp: 1551509487 *** Total CPU Utilization time = 0.052334
+
+Timestamp: 1551509487 *** Total CPU Utilization time = 0.052344
+
+Timestamp: 1551509487 *** Total CPU Utilization time = 0.052353
+
+Timestamp: 1551509487 *** Total CPU Utilization time = 0.052362
+
+Timestamp: 1551509487 *** Total CPU Utilization time = 0.052371
+
+Timestamp: 1551509487 *** Total CPU Utilization time = 0.052380
+
+Timestamp: 1551509487 *** Total CPU Utilization time = 0.052389
+
+Timestamp: 1551509487 *** Total CPU Utilization time = 0.052398
+
+Timestamp: 1551509488 *** Total CPU Utilization time = 0.052406
+
+Timestamp: 1551509488 *** Total CPU Utilization time = 0.052414
+
+Timestamp: 1551509488 *** Total CPU Utilization time = 0.052423
+
+Timestamp: 1551509488 *** Total CPU Utilization time = 0.052433
+
+Timestamp: 1551509488 *** Total CPU Utilization time = 0.052442
+
+Timestamp: 1551509488 *** Total CPU Utilization time = 0.052451
+
+Timestamp: 1551509488 *** Total CPU Utilization time = 0.052460
+
+Timestamp: 1551509488 *** Total CPU Utilization time = 0.052469
+
+Timestamp: 1551509488 *** Total CPU Utilization time = 0.052478
+
+Timestamp: 1551509489 *** Total CPU Utilization time = 0.052487
+
+Timestamp: 1551509489 *** Total CPU Utilization time = 0.052496
+
+Timestamp: 1551509489 *** Total CPU Utilization time = 0.052505
+
+Timestamp: 1551509489 *** Total CPU Utilization time = 0.052514
+
+Timestamp: 1551509489 *** Total CPU Utilization time = 0.052523
+
+Timestamp: 1551509489 *** Total CPU Utilization time = 0.052532
+
+Timestamp: 1551509489 *** Total CPU Utilization time = 0.052541
+
+Timestamp: 1551509489 *** Total CPU Utilization time = 0.052550
+
+Timestamp: 1551509489 *** Total CPU Utilization time = 0.052560
+
+Timestamp: 1551509490 *** Total CPU Utilization time = 0.052569
+
+Timestamp: 1551509490 *** Total CPU Utilization time = 0.052578
+
+Timestamp: 1551509490 *** Total CPU Utilization time = 0.052587
+
+Timestamp: 1551509490 *** Total CPU Utilization time = 0.052596
+
+Timestamp: 1551509490 *** Total CPU Utilization time = 0.052605
+
+Timestamp: 1551509490 *** Total CPU Utilization time = 0.052614
+
+Timestamp: 1551509490 *** Total CPU Utilization time = 0.052623
+
+Timestamp: 1551509490 *** Total CPU Utilization time = 0.052632
+
+Timestamp: 1551509490 *** Total CPU Utilization time = 0.052641
+
+Timestamp: 1551509491 *** Total CPU Utilization time = 0.052649
+
+Timestamp: 1551509491 *** Total CPU Utilization time = 0.052658
+
+Timestamp: 1551509491 *** Total CPU Utilization time = 0.052667
+
+Timestamp: 1551509491 *** Total CPU Utilization time = 0.052677
+
+Timestamp: 1551509491 *** Total CPU Utilization time = 0.052686
+
+Timestamp: 1551509491 *** Total CPU Utilization time = 0.052695
+
+Timestamp: 1551509491 *** Total CPU Utilization time = 0.052704
+
+Timestamp: 1551509491 *** Total CPU Utilization time = 0.052712
+
+Timestamp: 1551509491 *** Timestamp: 1551509491 *** child_Thread1: Child thread1 exiting
