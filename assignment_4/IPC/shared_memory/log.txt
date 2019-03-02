@@ -1,13 +1,31 @@
-Timestamp: 1551482048 *** IPC = SHARED MQ [CLIENT] <---> Process ID = 10659   FD = 3
+Timestamp: 1551499411 *** IPC = SHARED MQ [CLIENT] <---> Process ID = 8119   FD = 3
 
-Timestamp: 1551482052 *** IPC = SHARED MQ [SERVER] <---> Process ID = 10661   FD = 3
+Timestamp: 1551499417 *** IPC = SHARED MQ [SERVER] <---> Process ID = 8152   FD = 3
 
-Timestamp: 1551482056 *** Server: Recieved msg from Client = hello    length = 5
-Timestamp: 1551482064 *** Client: Recieved msg from server = LON    length = 3
-Timestamp: 1551482064 *** Client: Led turned ON
-Timestamp: 1551482077 *** Server: Recieved msg from Client = LOFF    length = 4
-Timestamp: 1551482077 *** Client: Led turned OFF
-Timestamp: 1551482086 *** Client: Recieved msg from server = welcome    length = 7
-Timestamp: 1551482089 *** Server: Recieved msg from Client = hello    length = 5
-Timestamp: 1551482093 *** SIG Handler: Killing the Client in handler
-Timestamp: 1551482095 *** SIG Handler: Killing the Server in handler
+Timestamp: 1551499423 *** Server: Recieved msg from Client = hello    length = 5
+Timestamp: 1551499430 *** Client: Recieved msg from server = welcome    length = 7
+Timestamp: 1551499438 *** Server: Recieved msg from Client = boulder    length = 7
+Timestamp: 1551499445 *** Client: Recieved msg from server = LON    length = 3
+Timestamp: 1551499445 *** Client: Led turned ON
+Timestamp: 1551499450 *** Server: Recieved msg from Client = LON    length = 3
+Timestamp: 1551499450 *** Server: Led turned ON
+Timestamp: 1551499454 *** Client: Recieved msg from server = LOFF    length = 4
+Timestamp: 1551499454 *** Client: Led turned OFF
+Timestamp: 1551499485 *** Server: Recieved msg from Client = LOFF    length = 4
+Timestamp: 1551499485 *** Server: Led turned OFF
+Timestamp: 1551499491 *** Client: Recieved msg from server = India    length = 5
+Timestamp: 1551499498 *** Server: Recieved msg from Client = Go BUFF    length = 7
+Timestamp: 1551499504 *** Client: Recieved msg from server = Embedded    length = 8
+Timestamp: 1551499510 *** Server: Recieved msg from Client = AESD    length = 4
+Timestamp: 1551499529 *** Client: Recieved msg from server = cricket    length = 7
+Timestamp: 1551499539 *** Server: Recieved msg from Client = footbal    length = 7
+Timestamp: 1551499545 *** Client: Recieved msg from server = handball    length = 8
+Timestamp: 1551499553 *** Server: Recieved msg from Client = table    length = 5
+Timestamp: 1551499558 *** Client: Recieved msg from server = chair    length = 5
+Timestamp: 1551499564 *** Server: Recieved msg from Client = laugh    length = 5
+Timestamp: 1551499576 *** Client: Recieved msg from server = maghavir    length = 9
+Timestamp: 1551499587 *** Server: Recieved msg from Client = temperature    length = 11
+Timestamp: 1551499597 *** Client: Recieved msg from server = good bye    length = 8
+Timestamp: 1551499606 *** Server: Recieved msg from Client = bgood bye    length = 10
+Timestamp: 1551499739 *** SIG Handler: Killing the Client in handler
+Timestamp: 1551499745 *** SIG Handler: Killing the Server in handler

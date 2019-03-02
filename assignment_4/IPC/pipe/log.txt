@@ -1,0 +1,28 @@
+Timestamp: 1551498196 *** IPC = PIPE [PARENT] <--> Process ID = 1545 write_FD = 3 Read_FD = 4
+Timestamp: 1551498196 *** IPC = PIPE [CHILD] <--> Process ID = 1546 write_FD = 5 Read_RD = 6
+Timestamp: 1551498200 *** Child: Recieved msg from parent = hello    length = 5
+Timestamp: 1551498206 *** Parent: Recieved msg from Child = welcome    length = 7
+Timestamp: 1551498215 *** Child: Recieved msg from parent = Assignment 4    length = 12
+Timestamp: 1551498220 *** Parent: Recieved msg from Child = pipe    length = 4
+Timestamp: 1551498224 *** Child: Recieved msg from parent = queue    length = 5
+Timestamp: 1551498231 *** Parent: Recieved msg from Child = homwork    length = 7
+Timestamp: 1551498234 *** Child: Recieved msg from parent = course    length = 6
+Timestamp: 1551498237 *** Parent: Recieved msg from Child = boulder    length = 7
+Timestamp: 1551498239 *** Child: Recieved msg from parent = LON    length = 3
+Timestamp: 1551498239 *** Child: Led turned ON
+Timestamp: 1551498303 *** Parent: Recieved msg from Child = LON    length = 3
+Timestamp: 1551498303 *** Parent: Led turned ON
+Timestamp: 1551498306 *** Child: Recieved msg from parent = LOFF    length = 4
+Timestamp: 1551498306 *** Child: Led turned OFF
+Timestamp: 1551498309 *** Parent: Recieved msg from Child = LOFF    length = 4
+Timestamp: 1551498309 *** Parent: Led turned OFF
+Timestamp: 1551498319 *** Child: Recieved msg from parent = happy bday    length = 10
+Timestamp: 1551498323 *** Parent: Recieved msg from Child = good bye    length = 8
+Timestamp: 1551498328 *** Child: Recieved msg from parent = see you later    length = 13
+Timestamp: 1551498333 *** Parent: Recieved msg from Child = take care    length = 9
+Timestamp: 1551498337 *** Child: Recieved msg from parent = India    length = 5
+Timestamp: 1551498346 *** Parent: Recieved msg from Child = I love my nation    length = 16
+Timestamp: 1551498359 *** Child: Recieved msg from parent = bharat    length = 6
+Timestamp: 1551498367 *** Parent: Recieved msg from Child = bharat mata ki jay    length = 18
+Timestamp: 1551498374 *** SIG Handler: Killing the child process in handler
+Timestamp: 1551498374 *** SIG Handler: Killing the parent process in handler

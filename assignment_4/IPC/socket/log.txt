@@ -1,9 +1,28 @@
-Timestamp: 1551412521 *** IPC = SOCKET <--> Process ID = 4475 <---> FD = 3
-Timestamp: 1551412540 *** IPC = SOCKET <--> Process ID = 4477 <---> FD = 3
-Timestamp: 1551412543 *** Server: Recieved msg from Client = hello    length = 5
-Timestamp: 1551412549 *** Client: Recieved msg from server = cu boulder    length = 10
-Timestamp: 1551412560 *** Server: Recieved msg from Client = good bye    length = 8
-Timestamp: 1551412565 *** Client: Recieved msg from server = welcome    length = 7
-Timestamp: 1551412568 *** Server: Recieved msg from Client = bye    length = 3
-Timestamp: 1551412569 *** Client: Killing the client process
-Timestamp: 1551412571 *** Server: Killing the server process
+Timestamp: 1551500413 *** IPC = SOCKET <--> Process ID = 13582 <---> FD = 3
+Timestamp: 1551500426 *** IPC = SOCKET <--> Process ID = 13664 <---> FD = 3
+Timestamp: 1551500430 *** Server: Recieved msg from Client = welcome    length = 7
+Timestamp: 1551500433 *** Client: Recieved msg from server = hello    length = 5
+Timestamp: 1551500453 *** Server: Recieved msg from Client = CU Boulder    length = 10
+Timestamp: 1551500459 *** Client: Recieved msg from server = GO BUFF    length = 7
+Timestamp: 1551500467 *** Server: Recieved msg from Client = Dil to pagal hai    length = 16
+Timestamp: 1551500477 *** Client: Recieved msg from server = Bollywood    length = 9
+Timestamp: 1551500484 *** Server: Recieved msg from Client = Gulley boy    length = 10
+Timestamp: 1551500489 *** Client: Recieved msg from server = sultan    length = 6
+Timestamp: 1551500495 *** Server: Recieved msg from Client = chak de    length = 7
+Timestamp: 1551500502 *** Client: Recieved msg from server = mohabatien    length = 10
+Timestamp: 1551500506 *** Server: Recieved msg from Client = LON    length = 3
+Timestamp: 1551500506 *** Server: Led turned ON
+Timestamp: 1551500509 *** Client: Recieved msg from server = LON    length = 3
+Timestamp: 1551500509 *** Client: Led turned ON
+Timestamp: 1551500513 *** Server: Recieved msg from Client = LOFF    length = 4
+Timestamp: 1551500513 *** Server: Led turned OFF
+Timestamp: 1551500516 *** Client: Recieved msg from server = LOFF    length = 4
+Timestamp: 1551500516 *** Client: Led turned OFF
+Timestamp: 1551500523 *** Server: Recieved msg from Client = Cricket    length = 7
+Timestamp: 1551500528 *** Client: Recieved msg from server = dhoni    length = 5
+Timestamp: 1551500572 *** Server: Recieved msg from Client = good bye    length = 8
+Timestamp: 1551500577 *** Client: Recieved msg from server = good bye    length = 8
+Timestamp: 1551500582 *** Server: Recieved msg from Client = see you later    length = 13
+Timestamp: 1551500587 *** Client: Recieved msg from server = see you later    length = 13
+Timestamp: 1551500589 *** Server: Killing the server process
+Timestamp: 1551500591 *** Client: Killing the client process

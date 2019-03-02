@@ -3,6 +3,8 @@
 #include <string.h>
 #include <signal.h>
 #include <time.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 #define queue_name "/my_test_queue"
 mqd_t mq;
@@ -37,6 +39,7 @@ int main()
     signal(SIGINT, queue_handle);
     msg_q msg_send, msg_recieve = {0};
     char cmd_send[24];
+    char command[32];
     struct mq_attr attr;
 
     //First we need to set up the attribute structure
@@ -64,7 +67,16 @@ int main()
             exit(EXIT_FAILURE);
         }
 
-        printf("Message --> %s  Buffer_len = %d\n", msg_recieve.message, msg_recieve.message_length);
+        printf("Message --> %s  Buffer_len = %ld\n", msg_recieve.message, msg_recieve.message_length);
+        sscanf(msg_recieve.message, "%s", command);
+        if (strcmp(command, "LON") == 0) {
+            printf("LED turned ON\n");
+            log_msg("log.txt", "Client: Led turned ON");
+        }
+        if (strcmp(command, "LOFF") == 0) {
+            printf("LED turned OFF\n");
+            log_msg("log.txt", "Client: Led turned OFF");
+        }
 
         printf("\nServer: Enter the message to send to the Client\n");
         scanf(" %[^\n]%*c", cmd_send);
@@ -76,7 +88,7 @@ int main()
             exit(EXIT_FAILURE);
         }
 
-        snprintf(print_msg, 128, "Server: Recieved msg from Client --> %s  length = %d\n", msg_recieve.message, msg_recieve.message_length);
+        snprintf(print_msg, 128, "Server: Recieved msg from Client --> %s  length = %ld\n", msg_recieve.message, msg_recieve.message_length);
         log_msg("log.txt", print_msg);
 
         memset(&msg_send, 0, sizeof(msg_send));

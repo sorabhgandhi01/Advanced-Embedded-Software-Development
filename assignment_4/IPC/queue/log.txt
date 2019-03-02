@@ -1,0 +1,48 @@
+Timestamp: 1551498882 *** IPC = MQ (Client) <--> Process ID = 5288, FD = 3
+Timestamp: 1551498887 *** IPC = MQ (server) <--> Process ID = 5305, FD = 3
+Timestamp: 1551498898 *** Server: Recieved msg from Client --> hello  length = 5
+
+Timestamp: 1551498898 *** Client: Recieved msg from server --> welcome  length = 7
+
+Timestamp: 1551498909 *** Server: Recieved msg from Client --> boulder  length = 7
+
+Timestamp: 1551498909 *** Client: Recieved msg from server --> Buff  length = 4
+
+Timestamp: 1551498919 *** Server: Recieved msg from Client --> Go buff  length = 7
+
+Timestamp: 1551498919 *** Client: Recieved msg from server --> LON  length = 3
+
+Timestamp: 1551498919 *** Client: Led turned ON
+Timestamp: 1551498923 *** Client: Led turned ON
+Timestamp: 1551498927 *** Server: Recieved msg from Client --> LON  length = 3
+
+Timestamp: 1551498927 *** Client: Recieved msg from server --> LOFF  length = 4
+
+Timestamp: 1551498927 *** Client: Led turned OFF
+Timestamp: 1551498931 *** Client: Led turned OFF
+Timestamp: 1551498937 *** Server: Recieved msg from Client --> LOFF  length = 4
+
+Timestamp: 1551498937 *** Client: Recieved msg from server --> India  length = 5
+
+Timestamp: 1551498959 *** Server: Recieved msg from Client --> Bharat  length = 6
+
+Timestamp: 1551498959 *** Client: Recieved msg from server --> sorabh gandhi  length = 13
+
+Timestamp: 1551498976 *** Server: Recieved msg from Client --> Qualcomm  length = 8
+
+Timestamp: 1551498976 *** Client: Recieved msg from server --> Qualcomm  length = 8
+
+Timestamp: 1551498994 *** Server: Recieved msg from Client --> Sing is king  length = 12
+
+Timestamp: 1551498994 *** Client: Recieved msg from server --> Samiisung  length = 9
+
+Timestamp: 1551499061 *** Server: Recieved msg from Client --> great  length = 5
+
+Timestamp: 1551499061 *** Client: Recieved msg from server --> great  length = 5
+
+Timestamp: 1551499074 *** Server: Recieved msg from Client --> nice  length = 4
+
+Timestamp: 1551499074 *** Client: Recieved msg from server --> nice  length = 4
+
+Timestamp: 1551499076 *** SIG Handler: Killing the client process in handler
+Timestamp: 1551499079 *** SIG Handler: Killing the server process in handler
