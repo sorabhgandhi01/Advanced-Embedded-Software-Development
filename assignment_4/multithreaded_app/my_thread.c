@@ -13,7 +13,6 @@ char file_name[20];
 
 void log_msg(char *filename, char *msg)
 {
-#if 0
     FILE *fptr;
     char write_buffer[512];
 
@@ -26,7 +25,6 @@ void log_msg(char *filename, char *msg)
     fwrite(write_buffer, sizeof(char), strlen(write_buffer), fptr);
 
     fclose(fptr);
-#endif
 }
 
 void child1_handler(int num)
@@ -52,6 +50,7 @@ void child2_handler(int num)
 void count_character (char *str, int length)
 {
     int count[26] = {0};
+    char print_msg[128];
     int i = 0;
 
     for (i = 0; i < length; i++)
@@ -72,6 +71,9 @@ void count_character (char *str, int length)
         if ((count[i] > 0) && (count[i] < 100))
         {
             printf("Count for character '%c' = %d\n", (i + 65), count[i]);
+
+            snprintf(print_msg, 128, "Count for character '%c' = %d\n", (i + 65), count[i]);
+            log_msg(file_name, print_msg);
         }
     }
 }
